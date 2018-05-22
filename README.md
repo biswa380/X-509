@@ -11,3 +11,6 @@ openssl pkcs12 -in keystore.p12 -nokeys -out my_key_store.crt
 
 4.Now add the .crt file to your browser's certificate list by going to 
 chrome://settings > Advanced > Manage Certificates > Import
+
+To create keystore and certificate through java code, visit the following link:
+http://www.baeldung.com/java-keystore
